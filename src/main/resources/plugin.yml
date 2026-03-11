@@ -1,0 +1,17 @@
+name: HyperCombatLog
+version: 1.0.0
+main: me.r1ver.combat.HyperCombatLog
+author: r1ver
+api-version: 1.8
+description: Sistema de combate assíncrono e inteligente com MySQL.
+
+commands:
+  combatstats:
+    description: Veja suas estatísticas de combate e logouts.
+    aliases: [cstats, combatinfo]
+    permission: hypercombat.stats
+
+permissions:
+  hypercombat.stats:
+    description: Permite usar o comando /combatstats
+    default: true
